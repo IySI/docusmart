@@ -1,0 +1,38 @@
+{
+  "name": "docusmart",
+  "version": "1.0.0",
+  "description": "**DocuSmart** es una aplicación web moderna, ágil y segura diseñada para organizar y gestionar documentos personales y profesionales desde una interfaz intuitiva y limpia, potenciada con clasificación inteligente mediante Inteligencia Artificial.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.0",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.73.0",
+    "mammoth": "^1.13.0",
+    "next": "^16.4.6",
+    "postcss": "^8.5.33",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2"
+  }
+}
